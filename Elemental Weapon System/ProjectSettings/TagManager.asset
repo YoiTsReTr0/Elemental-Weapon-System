@@ -8,11 +8,11 @@ TagManager:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - ShootableEntity
   - Water
   - UI
-  - 
-  - 
+  - ObstacleEnv
+  - Projectile
   - 
   - 
   - 

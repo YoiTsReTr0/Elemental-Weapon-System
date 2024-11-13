@@ -1,0 +1,69 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1622935401220321039
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4279979208442750435}
+  - component: {fileID: 6191683743880038122}
+  m_Layer: 0
+  m_Name: TempMeleeScript
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4279979208442750435
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1622935401220321039}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6191683743880038122
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1622935401220321039}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f6ed462ce6df4c146a395e6e9553b5cb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  BulletsRemaining: 0
+  WhoIsOwner: 0
+  WeaponSlotPosition: 0
+  IsReloading: 0
+  FireRateDelayBool: 0
+  layersToHit: 0
+  TriggerPressed: 0
+  WeaponData: {fileID: 11400000, guid: c090bd5f9e676a840a506baf0ce2e3e8, type: 2}
+  ProjectileModel: {fileID: 0}
+  WeaponImage: {fileID: 0}
+  MagezineSize: 0
+  FireRate: 0
+  ReloadTime: 0
+  AttackRange: 0
+  ProjectilesSpawn: 0
+  DamagePerProjectile: 0
+  AreaOfImpactRadius: 0
+  ProjectileSpeed: 0
+  WeaponEndPT: {fileID: 0}
+  HitRate: 0
+  HitRange: 0
+  DamagePerHit: 0
+  weaponType: 0

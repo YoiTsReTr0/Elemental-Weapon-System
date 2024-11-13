@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0fab9d59f4c53f543863257e86bf4837, type: 3}
+  m_Name: DefaultMelee
+  m_EditorClassIdentifier: 
+  WeaponType: 4
+  WeaponSlotTypes: 03000000
+  WeaponName: Melee
+  WeaponImage: {fileID: 21300000, guid: 79f6d647375279643987980eb25b255c, type: 3}
+  ProjectileType: 0
+  MagezineSize: 0
+  FireRate: 0
+  ReloadTime: 0
+  AttackRange: 0
+  ProjectilesSpawnCount: 0
+  DamagePerProjectile: 0
+  AreaOfImpactRadius: 0
+  ProjectileSpeed: 0
+  WeaponFireMode: 0
+  HitRate: 0.35
+  HitRange: 5
+  DamagePerHit: 50
