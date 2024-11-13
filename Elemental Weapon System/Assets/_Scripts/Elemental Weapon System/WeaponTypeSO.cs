@@ -1,7 +1,10 @@
 using System.Collections.Generic;
 using UnityEngine;
 using Elemental.Main;
+
+#if UNITY_EDITOR
 using UnityEditor;
+#endif
 
 namespace Elemental.WeaponSystem
 {
@@ -41,6 +44,8 @@ namespace Elemental.WeaponSystem
 
         #endregion
     }
+
+#if UNITY_EDITOR
 
     [CustomEditor(typeof(WeaponTypeSO))]
     public class WeaponTypeSOEditor : Editor
@@ -147,4 +152,6 @@ namespace Elemental.WeaponSystem
             serializedObject.ApplyModifiedProperties();
         }
     }
+
+#endif
 }
