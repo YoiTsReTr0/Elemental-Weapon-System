@@ -43,7 +43,3 @@ low poly weapon and/or character models can be used to get the counts in check.
 Each weapon shot, rapidly produces projectiles as bullets which is managed by the weapon data. Each projectile is expected physics managed in the following versions and follow gravity which leads to bullet drops, making the game more fun and strategic.
 Also in the following versions of this project, projectiles spawned by shooting weapons, will be managed using Object pooling (which was not the topic of this task). Also for an artistic look, the projectiles dont immediately get destroyed on 
 contact with the collide-able surfaces, gets rigidbody kinematic and can be seen on the surfaces (wall in this case) which can be looked at in the Cam 3.
-
-<br><br><br>
-
-APK is 
